@@ -1,13 +1,11 @@
 "use client";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
-const BootstrapInit = () => {
+export default function BootstrapInit() {
   useEffect(() => {
-    typeof document !== undefined
-      ? require("bootstrap/dist/js/bootstrap")
-      : null;
+    if (typeof window !== "undefined") {
+      require("bootstrap/dist/js/bootstrap.bundle.min.js");
+    }
   }, []);
-  return <div></div>;
-};
-
-export default BootstrapInit;
+  return null;
+}

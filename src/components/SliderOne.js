@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
@@ -9,35 +9,35 @@ const SliderOne = () => {
   return (
     <>
       {/* Hero Slider Version One start  */}
-      <section className='hero-slider-version-one'>
-        <div className='swiper hero-slider'>
-          <div className='swiper-wrapper'>
+      <section className="hero-slider-version-one">
+        <div className="swiper hero-slider">
+          <div className="swiper-wrapper">
             <Swiper
               loop={true}
               navigation={true}
               thumbs={{ swiper: thumbsSwiper }}
               modules={[FreeMode, Navigation, Thumbs, EffectFade]}
-              effect='fade'
+              effect="fade"
             >
               <SwiperSlide>
-                <div className='inner-item swiper-slide'>
+                <div className="inner-item swiper-slide">
                   <div
-                    className='slide-bg'
+                    className="slide-bg"
                     style={{
                       backgroundImage:
                         "url('assets/img/slider-bg/slider-bg-1.png')",
                     }}
                   />
-                  <div className='body-data'>
-                    <div className='container'>
-                      <div className='row '>
-                        <div className='col-xl-8 col-lg-12'>
-                          <div className='left-content'>
+                  <div className="body-data">
+                    <div className="container">
+                      <div className="row ">
+                        <div className="col-xl-8 col-lg-12">
+                          <div className="left-content">
                             <div>
-                              <div className='intro-box'>
+                              <div className="intro-box">
                                 <span>Constitution General Agency</span>
                               </div>
-                              <div className='heading-text '>
+                              <div className="heading-text ">
                                 <h2>
                                   An appropriate site is that selected after the
                                   building layout.
@@ -52,12 +52,12 @@ const SliderOne = () => {
                             </div>
                           </div>
                         </div>
-                        <div className='col-xl-4 col-lg-12'>
-                          <div className='right-content'>
-                            <div className='img-file'>
+                        <div className="col-xl-4 col-lg-12">
+                          <div className="right-content">
+                            <div className="img-file">
                               <img
-                                src='./assets/img/worker/bg-worker-1.png'
-                                alt='Roralex'
+                                src="./assets/img/worker/bg-worker-1.png"
+                                alt="Roralex"
                               />
                             </div>
                           </div>
@@ -68,24 +68,24 @@ const SliderOne = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='inner-item swiper-slide'>
+                <div className="inner-item swiper-slide">
                   <div
-                    className='slide-bg'
+                    className="slide-bg"
                     style={{
                       backgroundImage:
                         "url('assets/img/slider-bg/slider-bg-2.png')",
                     }}
                   />
-                  <div className='body-data'>
-                    <div className='container'>
-                      <div className='row '>
-                        <div className='col-xl-8 col-lg-12'>
-                          <div className='left-content'>
+                  <div className="body-data">
+                    <div className="container">
+                      <div className="row ">
+                        <div className="col-xl-8 col-lg-12">
+                          <div className="left-content">
                             <div>
-                              <div className='intro-box'>
+                              <div className="intro-box">
                                 <span>Constitution General Agency</span>
                               </div>
-                              <div className='heading-text'>
+                              <div className="heading-text">
                                 <h2>
                                   Permits and insurance obtained electric
                                   different sources!
@@ -100,12 +100,12 @@ const SliderOne = () => {
                             </div>
                           </div>
                         </div>
-                        <div className='col-xl-4 col-lg-12'>
-                          <div className='right-content'>
-                            <div className='img-file'>
+                        <div className="col-xl-4 col-lg-12">
+                          <div className="right-content">
+                            <div className="img-file">
                               <img
-                                src='./assets/img/worker/bg-worker-2.png'
-                                alt='Roralex'
+                                src="./assets/img/worker/bg-worker-2.png"
+                                alt="Roralex"
                               />
                             </div>
                           </div>
@@ -116,24 +116,24 @@ const SliderOne = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='inner-item swiper-slide'>
+                <div className="inner-item swiper-slide">
                   <div
-                    className='slide-bg'
+                    className="slide-bg"
                     style={{
                       backgroundImage:
                         "url('assets/img/slider-bg/slider-bg-3.png')",
                     }}
                   />
-                  <div className='body-data'>
-                    <div className='container'>
-                      <div className='row '>
-                        <div className='col-xl-8 col-lg-12'>
-                          <div className='left-content'>
+                  <div className="body-data">
+                    <div className="container">
+                      <div className="row ">
+                        <div className="col-xl-8 col-lg-12">
+                          <div className="left-content">
                             <div>
-                              <div className='intro-box'>
+                              <div className="intro-box">
                                 <span>Constitution General Agency</span>
                               </div>
-                              <div className='heading-text'>
+                              <div className="heading-text">
                                 <h2>
                                   Building structures are generally on concrete
                                   foundations.
@@ -148,12 +148,12 @@ const SliderOne = () => {
                             </div>
                           </div>
                         </div>
-                        <div className='col-xl-4 col-lg-12'>
-                          <div className='right-content'>
-                            <div className='img-file'>
+                        <div className="col-xl-4 col-lg-12">
+                          <div className="right-content">
+                            <div className="img-file">
                               <img
-                                src='./assets/img/worker/bg-worker-3.png'
-                                alt='Roralex'
+                                src="./assets/img/worker/bg-worker-3.png"
+                                alt="Roralex"
                               />
                             </div>
                           </div>
@@ -164,24 +164,24 @@ const SliderOne = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='inner-item swiper-slide'>
+                <div className="inner-item swiper-slide">
                   <div
-                    className='slide-bg'
+                    className="slide-bg"
                     style={{
                       backgroundImage:
                         "url('assets/img/slider-bg/slider-bg-4.png')",
                     }}
                   />
-                  <div className='body-data'>
-                    <div className='container'>
-                      <div className='row '>
-                        <div className='col-xl-8 col-lg-12'>
-                          <div className='left-content'>
+                  <div className="body-data">
+                    <div className="container">
+                      <div className="row ">
+                        <div className="col-xl-8 col-lg-12">
+                          <div className="left-content">
                             <div>
-                              <div className='intro-box'>
+                              <div className="intro-box">
                                 <span>Constitution General Agency</span>
                               </div>
-                              <div className='heading-text'>
+                              <div className="heading-text">
                                 <h2>
                                   Provide insulation to protect from required
                                   lighting?
@@ -196,12 +196,12 @@ const SliderOne = () => {
                             </div>
                           </div>
                         </div>
-                        <div className='col-xl-4 col-lg-12'>
-                          <div className='right-content'>
-                            <div className='img-file'>
+                        <div className="col-xl-4 col-lg-12">
+                          <div className="right-content">
+                            <div className="img-file">
                               <img
-                                src='./assets/img/worker/bg-worker-4.png'
-                                alt='Roralex'
+                                src="./assets/img/worker/bg-worker-4.png"
+                                alt="Roralex"
                               />
                             </div>
                           </div>
@@ -218,10 +218,10 @@ const SliderOne = () => {
       {/* Hero Slider Version One End */}
       {/* Swiper Dot start */}
 
-      <section className='hero-slider-arrow'>
-        <div className='container'>
-          <div className='swiper hero-slider-nav '>
-            <div className='swiper-wrapper'>
+      <section className="hero-slider-arrow">
+        <div className="container">
+          <div className="swiper hero-slider-nav ">
+            <div className="swiper-wrapper">
               <Swiper
                 onSwiper={setThumbsSwiper}
                 loop={true}
@@ -229,19 +229,19 @@ const SliderOne = () => {
                 freeMode={true}
                 watchSlidesProgress={true}
                 modules={[FreeMode, Navigation, Thumbs]}
-                className='mySwiper w-100'
+                className="mySwiper w-100"
               >
                 <SwiperSlide>
-                  <div className='swiper-slide'>
-                    <div className='inner-item'>
-                      <div className='icon-file'>
+                  <div className="swiper-slide">
+                    <div className="inner-item">
+                      <div className="icon-file">
                         <img
-                          className='img-fluid'
-                          src='./assets/img/icons/icon-1.png'
-                          alt='Roralex'
+                          className="img-fluid"
+                          src="./assets/img/icons/icon-1.png"
+                          alt="Roralex"
                         />
                       </div>
-                      <div className='text-file'>
+                      <div className="text-file">
                         <span>Branches</span>
                         <h4>Conference Convened</h4>
                       </div>
@@ -249,16 +249,16 @@ const SliderOne = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className='swiper-slide'>
-                    <div className='inner-item'>
-                      <div className='icon-file'>
+                  <div className="swiper-slide">
+                    <div className="inner-item">
+                      <div className="icon-file">
                         <img
-                          className='img-fluid'
-                          src='./assets/img/icons/icon-2.png'
-                          alt='Roralex'
+                          className="img-fluid"
+                          src="./assets/img/icons/icon-2.png"
+                          alt="Roralex"
                         />
                       </div>
-                      <div className='text-file'>
+                      <div className="text-file">
                         <span>Branches</span>
                         <h4>Conference Convened</h4>
                       </div>
@@ -266,16 +266,16 @@ const SliderOne = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className='swiper-slide'>
-                    <div className='inner-item'>
-                      <div className='icon-file'>
+                  <div className="swiper-slide">
+                    <div className="inner-item">
+                      <div className="icon-file">
                         <img
-                          className='img-fluid'
-                          src='./assets/img/icons/icon-3.png'
-                          alt='Roralex'
+                          className="img-fluid"
+                          src="./assets/img/icons/icon-3.png"
+                          alt="Roralex"
                         />
                       </div>
-                      <div className='text-file'>
+                      <div className="text-file">
                         <span>Branches</span>
                         <h4>Conference Convened</h4>
                       </div>
@@ -283,16 +283,16 @@ const SliderOne = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className='swiper-slide'>
-                    <div className='inner-item'>
-                      <div className='icon-file'>
+                  <div className="swiper-slide">
+                    <div className="inner-item">
+                      <div className="icon-file">
                         <img
-                          className='img-fluid'
-                          src='./assets/img/icons/icon-4.png'
-                          alt='Roralex'
+                          className="img-fluid"
+                          src="./assets/img/icons/icon-4.png"
+                          alt="Roralex"
                         />
                       </div>
-                      <div className='text-file'>
+                      <div className="text-file">
                         <span>Branches</span>
                         <h4>Conference Convened</h4>
                       </div>

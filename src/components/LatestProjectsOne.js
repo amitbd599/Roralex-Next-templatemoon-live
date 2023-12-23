@@ -1,8 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Isotope from "isotope-layout";
+
 import imagesLoaded from "imagesloaded";
 import Link from "next/link";
+
+if(typeof window !== 'undefined')
+{
+  import Isotope from "isotope-layout";
+}
 
 const LatestProjectsOne = () => {
   const isotope = React.useRef(Isotope | null);
@@ -10,6 +15,7 @@ const LatestProjectsOne = () => {
 
   // handling filter key change
   useEffect(() => {
+    if (typeof window === 'undefined') return;
     const imgLoad = imagesLoaded(document.querySelectorAll(".image-container"));
 
     imgLoad.on("done", () => {

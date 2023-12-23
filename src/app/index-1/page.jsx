@@ -1,5 +1,5 @@
 import HeaderOne from "@/components/HeaderOne";
-import SliderOne from "@/components/SliderOne";
+// import SliderOne from "@/components/SliderOne";
 import AboutOne from "@/components/AboutOne";
 import ServiceListOne from "@/components/ServiceListOne";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -19,7 +19,7 @@ const page = () => {
       {/* Header One */}
       <HeaderOne />
       {/* Slider One */}
-      <SliderOne />
+      {/* <SliderOne /> */}
       {/* About One */}
       <section className="about-section-version-one  pt-40 mb-140">
         <AboutOne />
